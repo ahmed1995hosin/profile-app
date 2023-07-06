@@ -1,0 +1,60 @@
+/* normal media query */
+/* big screen */
+@media screen and (min-width: 1400px) {
+}
+/* media query should start from big screen to the smallest one in order with max-width */
+/* xl */
+@media screen and (max-width: 1400px) {
+}
+/* l */
+@media screen and (max-width: 1200px) {
+}
+/* m */
+@media screen and (max-width: 991px) {
+  /* navbar */
+
+  .navbar-toggler {
+    border: none;
+    font-size: 2rem;
+    color: var(--primary-color);
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav .nav-item {
+    padding: 0rem 1.5rem;
+  }
+
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-link.active {
+    display: inline-block;
+    font-size: 1.3rem;
+  }
+}
+/* s */
+@media screen and (max-width: 768px) {
+  /* root */
+  /* section-padding */
+  :root {
+    --padding-section: 8rem 0;
+  }
+  /* nav bar */
+  .navbar-nav .nav-item {
+    padding: 1rem 1.5rem;
+  }
+  /* header */
+  .header h1 {
+    font-size: 4.4rem;
+  }
+}
+/* xs */
+@media screen and (max-width: 600px) {
+}
+/*----------------------- */
+/*----------------------- */
+/*----------------------- */
+/*----------------------- */
+/*----------------------- */
